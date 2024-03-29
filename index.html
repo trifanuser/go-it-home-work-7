@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://github.com/sindresorhus/modern-normalize/actions" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+       <script src="https://unpkg.com/feather-icons"></script>   
+  </head>
+  <body class="body-container">
+ <div class="js-menu-container">
+   
+          <button class="menu-toggle js-close-menu">
+             <svg
+               fill="currentColor"
+               viewBox="0 0 20 20"
+               xmlns="http://www.w3.org/2000/svg"
+              
+                  >
+              <path
+               fill-rule="evenodd"
+               d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+               clip-rule="evenodd"
+             ></path>
+             </svg>
+          </button>
+<nav class="mobile-nav">
+                <ul class="mobile-nav-links">
+                     <li class="active">
+                     <a class="link" href="studio.html"  target="_blank">Studio</a>
+                     </li>
+                    <li>
+                     <a class="link" href="portofoliu.html" target="_blank">Portfolio</a>
+                   </li>
+                    <li>
+                     <a class="link" href="contacts.html" target="_blank">Contacts</a>
+                   </li>
+                    </ul>
+              
+                  </nav>  
+                    <div class="mobile-contacts">
+                          <a class="mobile-contacts-phone" href="telto:+11(000)111-11-11"
+                          >+11(000)111-11-11</a>   
+                         <a class="mobile-contacts-email"  href="mailto:info@devstudio.com" >
+                         info@devstudio.com</a>
+                  
+                 
+                   </div>
+                  <div class="icons-social-list mobile-icons">
+                        <a href="https://www.instagram.com/"
+                           target="_blank"
+                           class="icon"
+                           area-leabel="instagram-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-instagram"></use></svg></a> 
+                   <a 
+                    href="https://twitter.com/?lang=ro"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="twitter-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-twitter"></use></svg ></a>     
+                   <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="facebook-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-facebook"></use></svg ></a> 
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="linkedin-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg></a>    
+                 
+                </div>
+
+
+ </div>
+
+                        
+    <!--header-section-->
+    <header class="section-top-line">   
+      <div class="top-line-content">
+          <a href="index.html" class="logo mobile-logo" >STUDIO</a>
+          <a class="js-open-menu">
+                         <svg class="burger-menu">
+                         <use href="./icons/menu-hamburger.svg#icon-menu-hamburger-1"></use>
+                        </svg>           
+          </a>  
+          
+             <nav class="menu-nav">
+                    <ul class="nav-list">
+                     <li class="active">
+                     <a class="link" href="studio.html"  target="_blank">Studio</a>
+                     </li>
+                     <li>
+                     <a class="link" href="portofoliu.html" target="_blank">Portfolio</a>
+                     </li>
+                     <li>
+                     <a class="link" href="contacts.html" target="_blank">Contacts</a>
+                     </li>
+                  </ul>
+              </nav>
+                 <div class="contacts-section">
+                    <i data-feather="mail"></i>
+                    <a class="contacts-email"  href="mailto:info@devstudio.com" >
+                          info@devstudio.com</a></li>
+                    <i data-feather="phone"></i>
+                    <a class="contacts-phone" href="telto:+11(000)111-11-11"
+                          >+11(000)111-11-11</a>   </li>  
+                    </div>
+            
+         </div>
+      
+   </header> 
+      <!--sectiunea hero image--> 
+       <section class="hero-image">
+          <div class="hero-section-beckground">
+             <p class="efective-solution">
+               Effective Solutions <br />
+              for Your Business</p>
+              <button class="buton-order" data-modal-open>Order Service</button>
+          </div>   
+       </section>                           
+     <div class="modal is-hidden" data-modal>
+            <div class="modal-content">
+               <form action="" autocomplete="on" >   
+                    <p>Leave your contacts and we will call you back</p>
+                    <div class="form-modal">
+                       <label for="name" class="form-group">
+                            <span class="label-text">Name</span> 
+                            <input type="text" name="name" id="name" class="input name"/>
+                                  <svg class="frame">
+                                  <use href="./icons/symbol-modal.svg#icon-Frame"></use>
+                                  </svg>        
+                       </label>
+                    </div>
+                    <div class="form-modal">
+                       <label  for= "telephone"  class="form-group">
+                           <span class="label-text">Telephone</span> 
+                              <input type="tel"  name="telephone" id="telephone" class="input"/> 
+                                 <svg class="phone">
+                                 <use href="./icons/symbol-modal.svg#icon-phone-black"></use>
+                                 </svg>
+                       </label>
+                   </div>
+                  <div class="form-modal"> 
+                     <label for="email" class="form-group">
+                         <span class="label-text">Email</span> 
+                            <input type="email"  name="email" id="email" class="input"/> 
+                               <svg class="email">
+                               <use href="./icons/symbol-modal.svg#icon-email-black"></use>
+                               </svg>
+                     </label>
+                 </div>
+                    <label class="form-group"> 
+                      <span class="label-text">Comment</span>  
+                      <textarea name="coment"  placeholder="Text input" 
+                                rows="3" class="form-textarea"></textarea>
+                    </label>  
+                    <div class="agree-checkbox">
+                       <label class="agree">
+                           <input type="checkbox"  class="check"
+                                  name="agree" 
+                                  value="agree">
+                                       <svg class="check-btn">
+                                          <use href="./icons/symbol-modal.svg#icon-Checkbox"></use>
+                                      </svg>
+                          <span class="policy-text">I accept the terms and conditions of the 
+                              <a href=""  class="privacy">Privacy Policy</a></span>
+                       </label>
+                    </div>
+                <button type="submit" class="send-btn">Send</button>    
+            </form> 
+                 <button class="close-btn"data-modal-close>&times;</button>     
+           
+         </div>
+      </div>   
+    <main>
+                    <!--section one-->
+      <section class="section">
+        <div class="one-section container ">
+         <ul class="one-section-list"> 
+            <li> 
+                <div class="icon">
+                    <svg>
+                      <use href="./icons/symbol-defs.svg#icon-Group"></use></svg>     
+               </div>
+                <h4 class="title-one-section">Strategy</h4>
+                <p class="one-section-content">
+                  Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                </p>
+              </li>
+              <li  >
+                <div class="icon">
+                    <svg>
+                      <use href="./icons/symbol-defs.svg#icon-clock"></use></svg>
+                   </div>
+                <h4 class="title-one-section" >Punctuality</h4>
+                <p class="one-section-content">
+                  Bring the key message to the brand's audience for the best pricewithin the shortes possible time.
+                </p>
+            </li>
+            <li >
+              <div  class="icon" >
+                    <svg >
+                      <use
+                        href="./icons/symbol-defs.svg#icon-diagram"></use></svg >    
+             </div> 
+                <h4 class="title-one-section" >Diligence</h4>
+                <p class="one-section-content" >
+                  Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+                </p>
+              </li>
+              <li  >
+                <div class="icon" >
+                    <svg  >
+                      <use
+                        href="./icons/symbol-defs.svg#icon-astronaut"
+                      ></use></svg >
+                </div> 
+                <h4 class="title-one-section">Technologies</h4>
+                <p class="one-section-content">
+                  Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+                </p>
+              </li>
+           </ul>  
+        </div> 
+      </section>
+                       <!--sectiunea two-->
+      <section class="section">   
+        <div class="section-two container">
+             <p class="two-section-top">What Are You Doing</p>
+              <ul class="two-section-list">
+            <li>
+              <img
+                class="cards card-one"
+                src="./images/sect2imag1.jpg"
+                alt="imaginea1-sectiunea 2"/>
+            </li>
+            <li>
+              <img
+                class="cards card-two"
+                src="./images/sect2imag2.jpg"
+                alt="imaginea2-seciunea 2"
+              />
+            </li>
+            <li>
+              <img
+                class="cards card-three"
+                src="./images/sect2img3.jpg"
+                alt="imaginea3-sectiunea 2"/>
+            </li>
+          </ul>
+       </div>
+     </section>
+
+
+                     <!--sectiunea our team-->
+      <section class="section">
+        <div class="our-team container">
+          <h2 class="our-team-name">Our Team</h2>
+          <ul class="our-team-list">
+            <li>
+              <img class ="our-team-image"  src="./images/sect3img1.jpg" alt="imaginea 1-sectiunea 3" />
+              <h4>Mark Guerrero</h4>
+              <p>Product Designer</p>
+                 <div class="icons-social-list">
+                        <a
+                           href="https://www.instagram.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="instagram-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-instagram"></use></svg></a> 
+                   <a 
+                    href="https://twitter.com/?lang=ro"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="twitter-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-twitter"></use></svg ></a>     
+                   <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="facebook-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-facebook"></use></svg ></a> 
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="linkedin-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg></a>    
+                 
+                </div>
+            </li>
+            <li>
+              <img class ="our-team-image" src="./images/sect3img2.jpg" alt="imaginea 2-sectiunea3" />
+              <h4>Tom Ford</h4>
+              <p>Frontend Developer</p>
+                 <div class="icons-social-list">
+                        <a
+                           href="https://www.instagram.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="instagram-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-instagram"></use></svg
+                  ></a> 
+                
+                 <a 
+                    href="https://twitter.com/?lang=ro"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="twitter-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-twitter"></use></svg
+                  ></a> 
+                       <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="facebook-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-facebook"></use></svg
+                  ></a> 
+                   <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="linkedin-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg ></a>    
+                  </div>
+            </li>
+            <li>
+              <img class ="our-team-image"   src="./images/sect3img3.jpg" alt="imaginea3-sectiunea 3" />
+              <h4>Camila</h4>
+              <p>Garcia Marketing</p>
+                 <div class="icons-social-list">
+                        <a href="https://www.instagram.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="instagram-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-instagram"></use></svg
+                  ></a> 
+                
+                 <a 
+                    href="https://twitter.com/?lang=ro"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="twitter-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-twitter"></use></svg
+                  ></a> 
+                      
+                 <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="facebook-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-facebook"></use></svg
+                  ></a> 
+                 
+                 <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="linkedin-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg
+                  ></a>    
+                 
+                </div>
+            </li>
+            <li>
+              <img class ="our-team-image"  src="./images/sect3img4.jpg" alt="imaginea 4-sectiunea 3" />
+              <h4>Daniel</h4>
+              <p>Wilson UI Designe</p>   
+                <div class="icons-social-list">
+                        <a
+                           href="https://www.instagram.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="instagram-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-instagram"></use></svg
+                  ></a> 
+                   <a 
+                    href="https://twitter.com/?lang=ro"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="twitter-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-twitter"></use></svg
+                  ></a> 
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="facebook-link">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-facebook"></use></svg
+                  ></a>  
+                 <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="icon"
+                    area-leabel="linkedin">
+                    <svg>
+                      <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg
+                  ></a>          
+                </div>
+             </li>           
+          </ul>
+           </div>
+        </div>
+      </section>
+   <section class=" costumer section">
+      <div  class="costumers container "> 
+        <h4 class="title-costumers">Costumers</h4>
+            <div class="icons-logo">
+                  <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link">
+                    <svg class="group">
+                      <use href="./icons/symbol-costumers.svg#icon-group"></use></svg
+                  ></a>
+                 <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link"  >
+                    <svg class="group-one">
+                      <use  href="./icons/symbol-costumers.svg#icon-group-1"></use></svg
+                  ></a>
+                    <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link">
+                    <svg class="group-two">
+                      <use  href="./icons/symbol-costumers.svg#icon-group-2"></use></svg
+                  ></a>
+                    <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link">
+                    <svg class="group-three">
+                      <use  href="./icons/symbol-costumers.svg#icon-group-3"></use></svg
+                  ></a>
+                    <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link">
+                    <svg class="group-four">
+                      <use  href="./icons/symbol-costumers.svg#icon-group-4"></use></svg></a>
+                    <a
+                    href="https://a1.ro/"
+                    target="_blank"
+                    class="icons"
+                    area-leabel="antena 1-link">
+                    <svg class="group-five">
+                      <use href="./icons/symbol-costumers.svg#icon-group-5"></use></svg></a>
+          </div>
+       </div> 
+     </section>
+   </main>
+    <!--footer-->
+    <footer class="footer-section ">
+      <div class="footer-background">
+        <ul class="footer-content ">  
+           <li class="content-logo">
+                <a href="./index.html" 
+                class="footer-logo" rel="noopener noreferrer">STUDIO</a>
+                <p class="text-footer"> Increase the flow of customers and sales for your business with digitalI marketing & growth solutions.</p>
+           </li>
+             <li class="social-links">  
+                <p class="title-social">Social Media</p>
+                 <div class="icons-social-list">
+                     <a href="https://www.instagram.com/"
+                        target="_blank"
+                        class="icon"
+                        area-leabel="instagram-link">
+                          <svg>
+                             <use href="./icons/symbol-social.svg#icon-instagram"></use></svg >
+                     </a> 
+                     <a href="https://twitter.com/?lang=ro"
+                        target="_blank"
+                        class="icon"
+                        area-leabel="twitter-link">
+                        <svg>
+                             <use href="./icons/symbol-social.svg#icon-twitter"></use></svg > 
+                     </a> 
+                     <a href="https://www.facebookcom/"
+                        target="_blank"
+                        class="icon"
+                        area-leabel="facebook-link">
+                         <svg>
+                            <use href="./icons/symbol-social.svg#icon-facebook"></use></svg >
+                       </a> 
+                     <a href="https://www.linkedin.com/"
+                        target="_blank"
+                        class="icon"
+                        area-leabel="linkedin-link">
+                          <svg>
+                               <use href="./icons/symbol-social.svg#icon-linkedin"></use></svg >
+                     </a>               
+                 </div>
+             </li>          
+         </ul>  
+             <div class="form-footer-container">
+             <form class="form-footer">
+                  <div class="form-email">   
+                       <span class="subs-email">Subscribe</span>  
+                        <label class="footer-label">
+                             <input type="email"  name="email" class="input-subs" placeholder="E-mail" /> 
+                        </label>
+                  </div>       
+                  <div class="subscribe">  
+                     <button type="subscribe" class="subscribe-btn">Subscribe</button>
+                      <svg>
+                        <use href="./icons/symbol-footer.svg#icon-Frame-foother"></use>
+                       </svg > 
+                  </div>
+             </form>   
+         </div>
+      </div> 
+    </footer>
+
+    <script>
+    feather.replace();
+    </script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+      
+    </script>
+  </body>
+</html>
